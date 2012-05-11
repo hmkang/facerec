@@ -81,7 +81,7 @@ int cv::Eigenfaces::predict(InputArray _src) {
     int minClass = -1;
     for(int sampleIdx = 0; sampleIdx < _projections.size(); sampleIdx++) {
         double dist = norm(_projections[sampleIdx], q, NORM_L2);
-        if(dist < minDist) {
+        if(dist < minDist && dist<2000) {
             minDist = dist;
             minClass = _labels[sampleIdx];
         }
@@ -159,7 +159,8 @@ int cv::Fisherfaces::predict(InputArray _src) {
     int minClass = -1;
     for(int sampleIdx = 0; sampleIdx < _projections.size(); sampleIdx++) {
         double dist = norm(_projections[sampleIdx], q, NORM_L2);
-        if(dist < minDist) {
+        if(dist < minDist && dist < 2000) {
+            cout << dist << endl;
             minDist = dist;
             minClass = _labels[sampleIdx];
         }
@@ -260,7 +261,7 @@ int cv::LBPH::predict(InputArray _src) {
     int minClass = -1;
     for(int sampleIdx = 0; sampleIdx < _histograms.size(); sampleIdx++) {
         double dist = compareHist(_histograms[sampleIdx], query, CV_COMP_CHISQR);
-        if(dist < minDist) {
+        if(dist < minDist && dist < 40) {
             minDist = dist;
             minClass = _labels[sampleIdx];
         }

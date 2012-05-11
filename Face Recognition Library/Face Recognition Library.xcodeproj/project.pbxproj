@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72CB623F154FB24E007304D6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CB623E154FB24E007304D6 /* CoreVideo.framework */; };
+		72CB6241154FB255007304D6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CB6240154FB255007304D6 /* CoreMedia.framework */; };
+		72CB6243154FB261007304D6 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CB6242154FB261007304D6 /* CoreImage.framework */; };
+		72CB6245154FB26D007304D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CB6244154FB26D007304D6 /* QuartzCore.framework */; };
+		72CB6247154FB274007304D6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CB6246154FB274007304D6 /* AVFoundation.framework */; };
 		9B0C156415234B7A00B14CF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0C156315234B7A00B14CF7 /* UIKit.framework */; };
 		9B0C156615234B7A00B14CF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0C156515234B7A00B14CF7 /* Foundation.framework */; };
 		9B0C156815234B7A00B14CF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0C156715234B7A00B14CF7 /* CoreGraphics.framework */; };
@@ -117,18 +122,6 @@
 		9B0C16C31523D1A500B14CF7 /* helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C16BC1523D1A500B14CF7 /* helper.cpp */; };
 		9B0C16C41523D1A500B14CF7 /* lbp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C16BD1523D1A500B14CF7 /* lbp.cpp */; };
 		9B0C16C61523D1A500B14CF7 /* subspace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C16BF1523D1A500B14CF7 /* subspace.cpp */; };
-		9B0C16D41523D67D00B14CF7 /* 1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16C81523D67D00B14CF7 /* 1_1.jpg */; };
-		9B0C16D51523D67D00B14CF7 /* 1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16C91523D67D00B14CF7 /* 1_2.jpg */; };
-		9B0C16D61523D67D00B14CF7 /* 1_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16CA1523D67D00B14CF7 /* 1_3.jpg */; };
-		9B0C16D71523D67D00B14CF7 /* 2_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16CB1523D67D00B14CF7 /* 2_1.jpg */; };
-		9B0C16D81523D67D00B14CF7 /* 2_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16CC1523D67D00B14CF7 /* 2_2.jpg */; };
-		9B0C16D91523D67D00B14CF7 /* 2_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16CD1523D67D00B14CF7 /* 2_3.jpg */; };
-		9B0C16DA1523D67D00B14CF7 /* 3_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16CE1523D67D00B14CF7 /* 3_1.jpg */; };
-		9B0C16DB1523D67D00B14CF7 /* 3_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16CF1523D67D00B14CF7 /* 3_2.jpg */; };
-		9B0C16DC1523D67D00B14CF7 /* 4_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16D01523D67D00B14CF7 /* 4_3.jpg */; };
-		9B0C16DD1523D67D00B14CF7 /* 4_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16D11523D67D00B14CF7 /* 4_2.jpg */; };
-		9B0C16DE1523D67D00B14CF7 /* 4_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16D21523D67D00B14CF7 /* 4_1.jpg */; };
-		9B0C16DF1523D67D00B14CF7 /* 3_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C16D31523D67D00B14CF7 /* 3_3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +135,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72CB623E154FB24E007304D6 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		72CB6240154FB255007304D6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		72CB6242154FB261007304D6 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		72CB6244154FB26D007304D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		72CB6246154FB274007304D6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9B0C155F15234B7A00B14CF7 /* Face Recognition Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Recognition Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0C156315234B7A00B14CF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B0C156515234B7A00B14CF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -257,18 +255,6 @@
 		9B0C16BC1523D1A500B14CF7 /* helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helper.cpp; sourceTree = "<group>"; };
 		9B0C16BD1523D1A500B14CF7 /* lbp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lbp.cpp; sourceTree = "<group>"; };
 		9B0C16BF1523D1A500B14CF7 /* subspace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = subspace.cpp; sourceTree = "<group>"; };
-		9B0C16C81523D67D00B14CF7 /* 1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_1.jpg; sourceTree = "<group>"; };
-		9B0C16C91523D67D00B14CF7 /* 1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_2.jpg; sourceTree = "<group>"; };
-		9B0C16CA1523D67D00B14CF7 /* 1_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_3.jpg; sourceTree = "<group>"; };
-		9B0C16CB1523D67D00B14CF7 /* 2_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_1.jpg; sourceTree = "<group>"; };
-		9B0C16CC1523D67D00B14CF7 /* 2_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_2.jpg; sourceTree = "<group>"; };
-		9B0C16CD1523D67D00B14CF7 /* 2_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_3.jpg; sourceTree = "<group>"; };
-		9B0C16CE1523D67D00B14CF7 /* 3_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_1.jpg; sourceTree = "<group>"; };
-		9B0C16CF1523D67D00B14CF7 /* 3_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_2.jpg; sourceTree = "<group>"; };
-		9B0C16D01523D67D00B14CF7 /* 4_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_3.jpg; sourceTree = "<group>"; };
-		9B0C16D11523D67D00B14CF7 /* 4_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_2.jpg; sourceTree = "<group>"; };
-		9B0C16D21523D67D00B14CF7 /* 4_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_1.jpg; sourceTree = "<group>"; };
-		9B0C16D31523D67D00B14CF7 /* 3_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +262,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72CB6247154FB274007304D6 /* AVFoundation.framework in Frameworks */,
+				72CB6245154FB26D007304D6 /* QuartzCore.framework in Frameworks */,
+				72CB6243154FB261007304D6 /* CoreImage.framework in Frameworks */,
+				72CB6241154FB255007304D6 /* CoreMedia.framework in Frameworks */,
+				72CB623F154FB24E007304D6 /* CoreVideo.framework in Frameworks */,
 				9B0C156815234B7A00B14CF7 /* CoreGraphics.framework in Frameworks */,
 				9B0C16971523576C00B14CF7 /* Accelerate.framework in Frameworks */,
 				9B0C16951523574900B14CF7 /* libOpenCV-iPhone.a in Frameworks */,
@@ -300,6 +291,11 @@
 		9B0C155415234B7A00B14CF7 = {
 			isa = PBXGroup;
 			children = (
+				72CB6246154FB274007304D6 /* AVFoundation.framework */,
+				72CB6244154FB26D007304D6 /* QuartzCore.framework */,
+				72CB6242154FB261007304D6 /* CoreImage.framework */,
+				72CB6240154FB255007304D6 /* CoreMedia.framework */,
+				72CB623E154FB24E007304D6 /* CoreVideo.framework */,
 				9B0C156915234B7A00B14CF7 /* Face Recognition Library */,
 				9B0C15911523511500B14CF7 /* ThirdParty */,
 				9B0C156215234B7A00B14CF7 /* Frameworks */,
@@ -559,18 +555,6 @@
 		9B0C16C71523D46200B14CF7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				9B0C16C81523D67D00B14CF7 /* 1_1.jpg */,
-				9B0C16C91523D67D00B14CF7 /* 1_2.jpg */,
-				9B0C16CA1523D67D00B14CF7 /* 1_3.jpg */,
-				9B0C16CB1523D67D00B14CF7 /* 2_1.jpg */,
-				9B0C16CC1523D67D00B14CF7 /* 2_2.jpg */,
-				9B0C16CD1523D67D00B14CF7 /* 2_3.jpg */,
-				9B0C16CE1523D67D00B14CF7 /* 3_1.jpg */,
-				9B0C16CF1523D67D00B14CF7 /* 3_2.jpg */,
-				9B0C16D31523D67D00B14CF7 /* 3_3.jpg */,
-				9B0C16D21523D67D00B14CF7 /* 4_1.jpg */,
-				9B0C16D11523D67D00B14CF7 /* 4_2.jpg */,
-				9B0C16D01523D67D00B14CF7 /* 4_3.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -684,18 +668,6 @@
 			files = (
 				9B0C156E15234B7A00B14CF7 /* InfoPlist.strings in Resources */,
 				9B0C157715234B7A00B14CF7 /* MainStoryboard.storyboard in Resources */,
-				9B0C16D41523D67D00B14CF7 /* 1_1.jpg in Resources */,
-				9B0C16D51523D67D00B14CF7 /* 1_2.jpg in Resources */,
-				9B0C16D61523D67D00B14CF7 /* 1_3.jpg in Resources */,
-				9B0C16D71523D67D00B14CF7 /* 2_1.jpg in Resources */,
-				9B0C16D81523D67D00B14CF7 /* 2_2.jpg in Resources */,
-				9B0C16D91523D67D00B14CF7 /* 2_3.jpg in Resources */,
-				9B0C16DA1523D67D00B14CF7 /* 3_1.jpg in Resources */,
-				9B0C16DB1523D67D00B14CF7 /* 3_2.jpg in Resources */,
-				9B0C16DC1523D67D00B14CF7 /* 4_3.jpg in Resources */,
-				9B0C16DD1523D67D00B14CF7 /* 4_2.jpg in Resources */,
-				9B0C16DE1523D67D00B14CF7 /* 4_1.jpg in Resources */,
-				9B0C16DF1523D67D00B14CF7 /* 3_3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -870,6 +842,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hyunmin Kang (Q67S7J2UK7)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Face Recognition Library/Face Recognition Library-Prefix.pch";
@@ -883,6 +856,7 @@
 					"-Objc",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "052CCF41-B294-4DB7-9DBE-4C50FF591C2E";
 				USER_HEADER_SEARCH_PATHS = "ThirdParty/OpenCV/include ThirdParty/OpenCV/modules/core/include ThirdParty/OpenCV/modules/flann/include ThirdParty/OpenCV/modules/imgproc/include ThirdParty/OpenCV/modules/video/include ThirdParty/OpenCV/modules/features2d/include ThirdParty/OpenCV/modules/objdetect/include ThirdParty/OpenCV/modules/calib3d/include ThirdParty/OpenCV/modules/highgui/include ThirdParty/OpenCV/modules/ml/include ThirdParty/OpenCV/modules/contrib/include ThirdParty/iulib ThirdParty/iulib-includes ThirdParty/ocropus/ocr-utils";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -894,6 +868,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hyunmin Kang (Q67S7J2UK7)";
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Face Recognition Library/Face Recognition Library-Prefix.pch";
@@ -906,6 +881,7 @@
 					"-Objc",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "052CCF41-B294-4DB7-9DBE-4C50FF591C2E";
 				SEPARATE_STRIP = YES;
 				USER_HEADER_SEARCH_PATHS = "ThirdParty/OpenCV/include ThirdParty/OpenCV/modules/core/include ThirdParty/OpenCV/modules/flann/include ThirdParty/OpenCV/modules/imgproc/include ThirdParty/OpenCV/modules/video/include ThirdParty/OpenCV/modules/features2d/include ThirdParty/OpenCV/modules/objdetect/include ThirdParty/OpenCV/modules/calib3d/include ThirdParty/OpenCV/modules/highgui/include ThirdParty/OpenCV/modules/ml/include ThirdParty/OpenCV/modules/contrib/include ThirdParty/iulib ThirdParty/iulib-includes ThirdParty/ocropus/ocr-utils";
 				WRAPPER_EXTENSION = app;
